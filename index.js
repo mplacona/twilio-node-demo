@@ -12,5 +12,3 @@ client.messages.list({ to: "" }).then(messages => {
         client.calls.create({ from, to, url });
     });
 });
-
-
