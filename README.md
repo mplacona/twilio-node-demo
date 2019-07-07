@@ -14,7 +14,7 @@
 - Explain how Twilio and webhooks work
 - Head to the numbers page and buy a number
 - Configure the Messaging part
-- Show that you haven't creted that app yet
+- Show that you haven't created that app yet
 - Code `message.xml`
 - Prompt people to text your number
 - Show that you could also have coded something like a conference call. Code `voice.xml`
