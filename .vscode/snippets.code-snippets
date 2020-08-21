@@ -15,14 +15,14 @@
 	"Twilio Constant": {
 		"prefix": "twilioc",
 		"body": [
-			"const twilio = require('twilio')"
+			"const twilio = require('twilio');"
 		],
 		"description": "Add Twilio import constant"
 	},
 	"Lodash Constant": {
 		"prefix": "lodashc",
 		"body": [
-			"const _ = require('lodash')"
+			"const _ = require('lodash');"
 		],
 		"description": "Add Lodash import constant"
 	},
@@ -43,21 +43,21 @@
 	"From constant": {
 		"prefix": "fromc",
 		"body": [
-			"const from = ''"
+			"const from = '';"
 		],
 		"description": "from constant"
 	},
 	"To constant": {
 		"prefix": "toc",
 		"body": [
-			"const to = $1"
+			"const to = $1;"
 		],
 		"description": "to constant"
 	},
 	"URL constant": {
 		"prefix": "urlc",
 		"body": [
-			"const url = '$1'"
+			"const url = '$1';"
 		],
 		"description": "url constant"
 	},
