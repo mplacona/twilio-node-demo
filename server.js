@@ -1,4 +1,4 @@
-import express, { static } from 'express';
+const express = require('express');
 const app = express();
 
 app.use((req, res, next) => {
@@ -6,7 +6,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(static(__dirname));
+app.use(express.static(__dirname));
 
 app.get('/', function (req, res) {
   res.send('Hello World!');
