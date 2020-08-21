@@ -15,14 +15,14 @@
 	"Twilio Constant": {
 		"prefix": "twilioc",
 		"body": [
-			"const twilio = require('twilio');"
+			"import twilio from 'twilio';"
 		],
 		"description": "Add Twilio import constant"
 	},
 	"Lodash Constant": {
 		"prefix": "lodashc",
 		"body": [
-			"const _ = require('lodash');"
+			"import { uniqBy } from 'lodash';"
 		],
 		"description": "Add Lodash import constant"
 	},
@@ -34,9 +34,9 @@
 		"description": "List Twilio messages"
 	},
 	"Unique messages filter": {
-		"prefix": "_.uniq",
+		"prefix": "uniq",
 		"body": [
-			"_.uniqBy(messages, '$1')."
+			"uniqBy(messages, '$1')."
 		],
 		"description": "Filter Twilio messages"
 	},
