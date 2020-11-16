@@ -43,7 +43,7 @@
 	"From constant": {
 		"prefix": "fromc",
 		"body": [
-			"const from = '';"
+			"const from = '$1';"
 		],
 		"description": "from constant"
 	},
@@ -61,7 +61,16 @@
 		],
 		"description": "url constant"
 	},
-	"CReate calls": {
+	"forEach": {
+		"prefix": ".forEach",
+		"body": [
+			".forEach($1 =>{",
+				"",
+			"})"
+		],
+		"description": "create call"
+	},
+	"Create calls": {
 		"prefix": "client.calls.create",
 		"body": [
 			"client.calls.create({ from, to, url })"
